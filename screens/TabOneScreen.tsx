@@ -8,10 +8,8 @@ export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       <Image
-        style={{ width: "100%", height: 100 }}
-        source={{
-          uri: "https://blog.wikilearnproductions.com/banner.png"
-        }}
+        style={{ width: "100%", height: 80 }}
+        source={require("../assets/images/banner.png")}
       />
       <View
         style={styles.separator}
